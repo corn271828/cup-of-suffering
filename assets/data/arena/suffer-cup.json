@@ -23,7 +23,8 @@
             "offY": 64,
             "width": 280,
             "height": 64
-        }
+        },
+        "noRush": true
     },
     "rounds": [
         {
