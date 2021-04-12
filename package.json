@@ -1,6 +1,6 @@
 {
     "name": "cup-of-suffering",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Adds in a number of (extremely difficult) modded arena cup rounds.",
     "prestart": "mod.js"
 }
