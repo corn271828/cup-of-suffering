@@ -16,7 +16,7 @@
         "music": "challenge",
         "rushMusic": "raidTheme",
         "level": 80,
-        "difficulty": "5",
+        "difficulty": "6",
         "banner": {
             "src": "media\/gui\/arena-banners.png",
             "offX": 0,
