@@ -1,0 +1,170 @@
+[{
+    "type": "INIT_KEY",
+    "index": "bossLabel",
+    "content": {
+        "en_US": "Driller"
+    }
+}, {
+	"type": "ENTER",
+	"index": ["actions", "RegenShield"]
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 0
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 0,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FAST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "Hit"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 4
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 4,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":160,
+    		"speed":"FAST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "WheelB"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 0
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 0,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":160,
+    		"speed":"NORMAL",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "Bombing"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 7
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 7,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":-32,
+    		"speed":"NORMAL",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "StunRegenJump"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 1
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 1,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FAST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "IcePunch"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 8
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 8,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":160,
+    		"speed":"FAST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT",
+    "count": 2
+}]

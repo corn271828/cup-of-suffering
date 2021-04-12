@@ -1,0 +1,57 @@
+[{
+    "type": "INIT_KEY",
+    "index": "bossLabel",
+    "content": {
+        "en_US": "Moth"
+    }
+}, {
+	"type": "ENTER",
+	"index": ["actions", "LaserAttack"]
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 5
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 5,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":80,
+    		"speed":"FASTEST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1.25,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 18
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 18,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":216,
+    		"speed":"FASTER",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1.25,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT",
+    "count": 2
+}]

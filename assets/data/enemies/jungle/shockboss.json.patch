@@ -1,0 +1,88 @@
+[{
+    "type": "INIT_KEY",
+    "index": "bossLabel",
+    "content": {
+        "en_US": "Phantom"
+    }
+}, {
+	"type": "ENTER",
+	"index": ["actions", "CenterAttack"]
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 9
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 9,
+    "content": {
+    	"withElse":true,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"poiFilter":{
+    			"name":"bossCenter",
+    			"type":"NAMED_ENTITY"
+    		},
+    		"distance":10000,
+    		"type":"SET_POI_TEMP_TARGET"
+    	}],
+    	"elseStep":[{
+    		"poiFilter":{
+    			"name":"shockbossCenter",
+    			"type":"NAMED_ENTITY"
+    		},
+    		"distance":10000,
+    		"type":"SET_POI_TEMP_TARGET"
+    	}]
+    }
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 43
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 43,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FASTER",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,"waitSkip":0,
+    		"zoom":1.5,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT",
+    "count": 1
+}, {
+	"type": "ENTER",
+	"index": "weakEnd"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 8
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 8,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FASTER",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,"waitSkip":0,
+    		"zoom":1.25,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT",
+    "count": 2
+}]

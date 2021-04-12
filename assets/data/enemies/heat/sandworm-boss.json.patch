@@ -1,0 +1,35 @@
+[{
+    "type": "INIT_KEY",
+    "index": "bossLabel",
+    "content": {
+        "en_US": "Worm"
+    }
+}, {
+	"type": "ENTER",
+	"index": ["actions", "RisePillar"]
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 1
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 1,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"NORMAL",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT",
+    "count": 2
+}]

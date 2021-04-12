@@ -1,0 +1,34 @@
+[{
+    "type": "INIT_KEY",
+    "index": "bossLabel",
+    "content": {
+        "en_US": "Blob"
+    }
+}, {
+	"type": "ENTER",
+	"index": ["actions", "BlobStart"]
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 1
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 1,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FAST",
+    		"transition":"EASE_OUT",
+    		"wait":false,"waitSkip":0,
+    		"zoom":1.5,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT",
+    "count": 2
+}]

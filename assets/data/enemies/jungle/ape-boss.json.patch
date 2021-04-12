@@ -1,0 +1,307 @@
+[{
+	"type": "ENTER",
+	"index": ["proxies", "shockBombL", "action"]
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 9
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 9,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FASTEST",
+    		"transition":"EASE_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1.25,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT",
+    "count": 3
+}, {
+	"type": "ENTER",
+	"index": ["actions", "SpecialShock"]
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 6
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 6,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"NORMAL",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "SpecialWave"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 4
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 4,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"NORMAL",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "SwitchShock"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 0
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 0,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"SLOW",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 17
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 17,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FASTEST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1.25,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "SwitchWave"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 0
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 0,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"SLOW",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 17
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 17,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FASTEST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1.25,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "CloudJump"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 9
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 9,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":-32,
+    		"speed":"NORMAL",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 22
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 22,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"SLOW",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "WhaleStablize"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 3
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 3,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":48,
+    		"speed":"SLOW",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT"
+}, {
+	"type": "ENTER",
+	"index": "RageInit"
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 1
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 1,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FAST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "REMOVE_ARRAY_ELEMENT",
+    "index": 12
+}, {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 12,
+    "content": {
+    	"withElse":false,
+    	"type":"IF",
+    	"condition":"!tmp.cupofsufferingBossaNova",
+    	"thenStep":[{
+    		"offsetX":0,
+    		"offsetY":0,
+    		"speed":"FASTEST",
+    		"transition":"EASE_IN_OUT",
+    		"wait":false,
+    		"waitSkip":0,
+    		"zoom":1.5,
+    		"focusType":"SELF",
+    		"type":"FOCUS_CAMERA"
+    	}]
+    }
+}, {
+    "type": "EXIT",
+    "count": 2
+}]
