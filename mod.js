@@ -44,9 +44,13 @@ sc.SUB_HP_EDITOR.BOSS.inject({
   },
   
   onDetach() {
-    this.parent();
-    bossHPBarPositioner(bossList);
-  },
+     if (this.listed) {
+       this.listed = false;
+       bossList.erase(this);
+       bossHPBarPositioner(bossList);
+     }
+     this.parent();
+   },
   
   updatePlacement(a, b, ydist = 4) {
     this.setSize(b, 11);
