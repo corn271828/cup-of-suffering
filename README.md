@@ -8,7 +8,7 @@ CCLoader is required, which may be downloaded here: https://github.com/CCDirectL
 
 # Notes
 
-Though the arena cup is level 80, it is recommended that you raise your level to at least 95 and have corresponding DLC equips. To facilitate leveling up, all Hedgehags and Old Hedgehags have had their level buffed to 99 when booster is enabled. (If you wish to change the boosted level, you can go to cup-of-suffering/assets/data/enemies/hedgehog.json.patch and hedgehog-alt.json.patch, and change 99 to whatever you want.)
+Though the arena cup is level 80, it is recommended that you raise your level to at least 90 and have corresponding DLC equips (unless you are Chiiko and can beat it at level 75 with Prepare to Hi on). To facilitate leveling up, all Hedgehags and Old Hedgehags have had their level buffed to 99 when booster is enabled. (If you wish to change the boosted level, you can go to cup-of-suffering/assets/data/enemies/hedgehog.json.patch and hedgehog-alt.json.patch, and change 99 to whatever you want.)
 
 ## (Round 1) Bossa Nova
 
